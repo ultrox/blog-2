@@ -1,7 +1,8 @@
 [[headers]]
-  for = "/static/*"
+  for = "/static/*.woff2"
   [headers.values]
+    # cache for one month
     cache-control = '''
-    max-age=365000000,
+    max-age=2592000,
     public
     immutable'''
