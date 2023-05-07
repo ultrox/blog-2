@@ -16,7 +16,8 @@ class Layout extends React.Component {
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
-            fontWeight: 900
+            fontWeight: 900,
+            fontFamily: Merriweather, Georgia, sans-serfi
           }}
         >
           <Link
