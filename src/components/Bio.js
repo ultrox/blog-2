@@ -18,6 +18,8 @@ function Bio() {
             }}
           >
             <img
+              width="50"
+              height="50"
               src={profilePic}
               alt={author}
               style={{
