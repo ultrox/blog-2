@@ -168,3 +168,9 @@ pre[data-line] {
 a.anchor.before {
   box-shadow: none;
 }
+
+@media (prefers-color-scheme: dark) {
+ :not(pre)>code[class*=language-] {
+    background: rgba(0, 122, 204, 0.2);
+    color: #d0d0ff;
+}
