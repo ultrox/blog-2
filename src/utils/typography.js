@@ -11,8 +11,8 @@ Wordpress2016.overrideThemeStyles = () => {
          'color': 'initial'
        },
        ':not(pre)>code[class*=language-]': {
-         'background': 'rgba(0, 122, 204, 0.2)';
-          'color': '#d0d0ff';
+         'background': 'rgba(0, 122, 204, 0.2)',
+          'color': '#d0d0ff',
         },
      },
     'a.gatsby-resp-image-link': {
