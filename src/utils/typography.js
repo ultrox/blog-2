@@ -9,6 +9,7 @@ Wordpress2016.overrideThemeStyles = () => {
     '@media (prefers-color-scheme: dark)': {
        'body': {
          'color': 'initial'
+       }
      },
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
