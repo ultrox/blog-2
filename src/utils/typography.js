@@ -6,6 +6,12 @@ Wordpress2016.overrideThemeStyles = () => {
     'html': {
       'color-scheme': 'light dark',
     },
+    '@media (prefers-color-scheme: light)': {
+       ':root': {
+         '--bg-code': 'rgba(255, 229, 100, 0.2)',
+         '--text-code': '#1a1a1a'
+        }
+    },
     '@media (prefers-color-scheme: dark)': {
        'body': {
          'color': 'initial'
